@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Keinngod](https://up.htmlacademy.ru/htmlcss/39/user/2311851).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Ветер](https://htmlacademy.ru/profile/id73199).
 
 ---
 
