@@ -1,0 +1,427 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  line-height: 24px;
+  background-color: #F2F2F2;
+  color: #333333;
+  margin: 0;
+}
+.container{
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.main-nav{
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 64px;
+}
+.site-navigation{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 339px;
+  height: 64px;
+  margin-left: 30px;
+
+
+}
+.navigation-link{
+  text-align: center;
+  display: block;
+  padding: 20px 16px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+
+}
+.user-navigation{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+
+  height: 64px;
+
+}
+
+.advantages-list{
+  display: grid;
+  grid-template-areas: "big1 big1 big1"
+                       "small1 small2 small3"
+                       "big2 big2 big2";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation a {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+
+}
+
+.user-navigation a {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+nav li {
+  list-style: none;
+}
+
+.hero {
+  background-image: url("../images/white.svg"),url("../images/index-background.jpg");
+  background-position: left bottom,left top;
+  background-size: 100% auto, cover;
+  background-color: rgb(41, 68, 87);
+  background-repeat: no-repeat;
+  display: flex;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  padding-left: 371px;
+  padding-right: 371px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height:1px;
+  margin: -1px;
+  padding: 0;
+  border:0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero-image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.main-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages .reason {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.user-navigation .search-icon {
+  display: block;
+  background-image: url("/images/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 20px;
+  height: 20px;
+  padding: 22px 12px 22px 12px;
+}
+
+.user-navigation .like {
+
+  background-image: url("/images/like.svg");
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  display: block;
+  background-position: center;
+  padding: 11px 5px 32px 24px;
+
+
+}
+
+.user-navigation .quantity {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #7DB54F;
+    border-radius: 10px;
+    padding: 5px 4px 5px 4px;
+
+}
+
+.advantages-list-item:first-child {
+  background-color: rgba(130, 179, 211, 1);
+  color: #FFFFFF;
+  display: flex;
+  grid-area: big1;
+}
+
+.advantages-list-item:nth-child(3) {
+  background-color: rgba(131, 179, 211, 0.2);
+  width: 400px;
+  height: 385px;
+  display: flex;
+  grid-area: small2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-list-item:last-child {
+  background-color: rgba(130, 179, 211, 1);
+  color: #FFFFFF;
+  display: flex;
+  grid-area: big2;
+}
+.advantages-list-item:nth-child(2) {
+
+  width: 400px;
+  height: 385px;
+  grid-area: small1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.advantages-list-item:nth-child(4) {
+
+  width: 400px;
+  height: 385px;
+  grid-area: small3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.advantages-list .advantages-subtitle{
+  font-weight: 700;
+  font-size:24px;
+  line-height: 28px;
+  text-align: center;
+}
+.advantages-text{
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.user-navigation .want-to-here {
+  display: flex;
+  background-color: rgba(117, 97, 87, 1);
+  width: 160px;
+  border-radius: 4px;
+  margin-left:20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.user-navigation .button-user-navigation{
+  display: block;
+  margin: 0;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 34px 8px 34px;
+}
+
+.advantages-list h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+
+.advantages-list p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.opportunities .appeal {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+  font-size: 22px;
+}
+
+.opportunities-list-item h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+}
+
+.opportunities-list-item {
+
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
+
+.search-hotel {
+  font-weight: 700;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(117, 97, 87, 1);
+  color: #ffffff;
+  width: 376px;
+  height: 52px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/Subscribe.jpg);
+  background-color: rgba(130, 179, 211, 1);
+  color: #ffffff;
+  padding: 96px, 258px, 104px, 258px;
+  text-align: center;
+}
+
+.subscribe h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.subscribe-form .email {
+  background-color: rgba(242, 242, 242, 1);
+  font-size: 18px;
+  font-weight: 400;
+  border: 0;
+  font-family: inherit;
+}
+
+.subscribe-form .button-subscribe {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(130, 179, 211, 1);
+  border: 0;
+  font-family: inherit;
+}
+
+.telephone {
+
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 40px;
+}
+.opportunities-list{
+  display: flex;
+}
+.society{
+  display: flex;
+}
+.footer{
+  display: flex;
+
+}
+.main-header-logo{
+  margin:0;
+}
+/*Стилизация каталога*/
+
+.filter{
+  background-image: url("../images/catalog-background.png");
+  background-repeat: no-repeat;
+  padding: 70px;
+  padding-top: 35px;
+  color: #FFFFFF;
+}
+.catalog-filter{
+  display: flex;
+}
+.catalog-title{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+fieldset{
+  border: none;
+  padding: 0;
+
+}
+.infrastructure{
+  margin:0;
+  margin-right: 70px;
+  font-size: 18px;
+}
+.catalog-filter-list{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.catalog-filter-title{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  padding: 0;
+  font-weight: 700;
+}
