@@ -43,86 +43,107 @@
           alt="Добро пожаловать в Седону!">
       </section>
       <section class="advantages" data-test="advantages">
+        <div class="title-advantages">
         <h2 class="visually-hidden">Преимущества</h2>
-        <p class="main-text">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="main-text">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</p>
         <p class="reason">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
         <ul class="advantages-list">
-          <li class="advantages-list-item">
+          <li class="advantages-list-item item-blue">
             <div class="advantages-text">
-              <h3 class="advantages-subtitle">Настоящий городок</h3>
+              <h3 class="advantages-subtitle">Настоящий<br> городок</h3>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <img src="images/street-sedona.jpg" height="385" width="800" alt="Улица города Седона">
           </li>
-          <li class="advantages-list-item">
+          <li class="advantages-list-item item-white">
+            <div class="advantages-text">
             <h3 class="advantages-subtitle">Небольшая площадь</h3>
             <p>Все достопримечательности находятся очень близко</p>
+            </div>
           </li>
-          <li class="advantages-list-item">
-            <h3 class="advantages-subtitle">Красивая дорога</h3>
+          <li class="advantages-list-item item-white">
+            <div class="advantages-text">
+            <h3 class="advantages-subtitle">Красивая<br> дорога</h3>
             <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
           </li>
-          <li class="advantages-list-item">
-            <h3 class="advantages-subtitle">Мало туристов</h3>
+          <li class="advantages-list-item item-white">
+            <div class="advantages-text">
+            <h3 class="advantages-subtitle">Мало<br> туристов</h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
+            </div>
           </li>
-          <li class="advantages-list-item">
-            <h3 class="advantages-subtitle">Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <li class="advantages-list-item item-blue">
             <img src="images/devils-bridge.jpg" height="385" width="800" alt="Мост дьявола в каньоне">
+            <div class="advantages-text">
+            <h3 class="advantages-subtitle">Там есть<br> мост дьявола</h3>
+            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </div>
+
           </li>
         </ul>
       </section>
       <section class="opportunities">
+        <div class="opportunities-title">
         <h2 class="visually-hidden">Возможности</h2>
-        <p class="appeal">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p class="appeal">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</p>
         <p class="service">Опытный персонал и качественное обслуживание!</p>
+        </div>
         <ul class="opportunities-list">
           <li class="opportunities-list-item">
+            <div class="opportunities-wrapper housing">
             <h3>Жильё</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <p>Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
+            </div>
           </li>
           <li class="opportunities-list-item">
+            <div class="opportunities-wrapper food">
             <h3>Еда</h3>
-            <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p>Всегда заказывайте<br> топовый фирменный бургер, вы не разочаруетесь!</p>
+            </div>
           </li>
           <li class="opportunities-list-item">
+            <div class="opportunities-wrapper souvenirs">
             <h3>Сувениры</h3>
-            <p>Не только китайского, но и настоящего местного производства!</p>
+            <p>Не только китайского,<br> но и настоящего местного производства!</p>
+            </div>
           </li>
         </ul>
       </section>
       <section class="search" data-test="search">
+        <div class="search-wrapper">
         <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href="#" class="search-hotel">Поиск гостиницы в Cедоне</a>
+        </div>
       </section>
-      <section class="subscribe" data-test="subscribe">
+      <section class="subscribe subscribe-image" data-test="subscribe">
+        <div class="subscribe-wrapper">
         <h2>Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p>Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-          <p>
             <label for="user-email" class="visually-hidden">Ваш e-mail</label>
             <input class="email" type="text" id="user-email" name="user-email" placeholder="Ваш e-mail">
             <button class="button-subscribe" type="submit">Подписаться</button>
-          </p>
         </form>
+        </div>
       </section>
     </main>
-    <footer data-test="footer">
+    <footer data-test="footer" class="footer">
       <ul class="society">
         <li class="society-item">
-          <a href="#">
+          <a href="https://vk.com/htmlacademy" class="button vk">
             <span class="visually-hidden">Вконтакте</span>
           </a>
         </li class="society-item">
         <li>
-          <a href="#">
+          <a href="#" class="button telegram">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
-        <li class="society-item">
-          <a href="#">
+        <li class="society-item" >
+          <a href="#" class="button youtube">
             <span class="visually-hidden">YouTube</span>
           </a>
         </li>
