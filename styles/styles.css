@@ -212,6 +212,27 @@ nav li {
   line-height: 28px;
   text-align: center;
 }
+.item-blue .advantages-subtitle::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.item-white .advantages-subtitle::after{
+  content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .item-blue .advantages-text{
   align-self: center;
   justify-content: center;
@@ -426,7 +447,7 @@ nav li {
 }
 .subscribe p {
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
   margin-top: 20px;
   margin-bottom: 54px;
@@ -531,7 +552,7 @@ nav li {
 .catalog-filter{
   display: flex;
   width: 1060px;
-  height:160px;
+  align-items: flex-start;
 
 }
 .catalog-title{
@@ -639,6 +660,8 @@ fieldset{
 .filter-wrapper{
   background-image: url("../images/catalog-background.png");
   background-repeat: no-repeat;
+  background-color: aquamarine;
+  background-size: cover;
   padding: 0;
   padding-top: 0;
   color: #FFFFFF;
